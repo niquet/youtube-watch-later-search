@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Watch Later Search",
+  "version": "1.0",
+  "description": "Search Watch Later videos efficiently on YouTube.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/playlist?list=WL"],
+      "js": ["content.js"]
+    }
+  ]
+}
